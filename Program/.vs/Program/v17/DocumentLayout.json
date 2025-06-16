@@ -1,10 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\82103\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Program\\",
+  "WorkspaceRootPath": "C:\\Users\\82103\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Console-App\\Program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08C0BD40-8462-4720-A71E-B0DC1018D5A4}|Program\\Program.vcxproj|C:\\Users\\82103\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Program\\Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{08C0BD40-8462-4720-A71E-B0DC1018D5A4}|Program\\Program.vcxproj|C:\\Users\\82103\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Console-App\\Program\\Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{08C0BD40-8462-4720-A71E-B0DC1018D5A4}|Program\\Program.vcxproj|solutionrelative:Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE16EC3-727A-494F-8616-1F23C1CA3E5F}|Class2th (Class)\\Class2th (Class).vcxproj|C:\\Users\\82103\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Console-App\\Program\\Class2th (Class)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7FE16EC3-727A-494F-8616-1F23C1CA3E5F}|Class2th (Class)\\Class2th (Class).vcxproj|solutionrelative:Class2th (Class)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5A78C6F4-13E6-4B26-8785-67F49459F247}|Class1th (Stream)\\Class1th (Stream).vcxproj|C:\\Users\\82103\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Console-App\\Program\\Class1th (Stream)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5A78C6F4-13E6-4B26-8785-67F49459F247}|Class1th (Stream)\\Class1th (Stream).vcxproj|solutionrelative:Class1th (Stream)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\82103\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Console-App\\Program\\Class2th (Class)\\Source.cpp",
+              "RelativeDocumentMoniker": "Class2th (Class)\\Source.cpp",
+              "ToolTip": "C:\\Users\\82103\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Console-App\\Program\\Class2th (Class)\\Source.cpp",
+              "RelativeToolTip": "Class2th (Class)\\Source.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-16T09:47:14.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\82103\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Console-App\\Program\\Class1th (Stream)\\Source.cpp",
+              "RelativeDocumentMoniker": "Class1th (Stream)\\Source.cpp",
+              "ToolTip": "C:\\Users\\82103\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Console-App\\Program\\Class1th (Stream)\\Source.cpp",
+              "RelativeToolTip": "Class1th (Stream)\\Source.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-16T09:02:04.734Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cpp",
-              "DocumentMoniker": "C:\\Users\\82103\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Program\\Program\\Program.cpp",
+              "DocumentMoniker": "C:\\Users\\82103\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Console-App\\Program\\Program\\Program.cpp",
               "RelativeDocumentMoniker": "Program\\Program.cpp",
-              "ToolTip": "C:\\Users\\82103\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Program\\Program\\Program.cpp",
+              "ToolTip": "C:\\Users\\82103\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Console-App\\Program\\Program\\Program.cpp",
               "RelativeToolTip": "Program\\Program.cpp",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAUwGAAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-16T08:02:38.465Z",
               "EditorCaption": ""
