@@ -11,8 +11,8 @@
       "RelativeMoniker": "D:0:0:{5A78C6F4-13E6-4B26-8785-67F49459F247}|Class1th (Stream)\\Class1th (Stream).vcxproj|solutionrelative:Class1th (Stream)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FE16EC3-727A-494F-8616-1F23C1CA3E5F}|Class2th (Class)\\Class2th (Class).vcxproj|C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Class2th (Class)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{7FE16EC3-727A-494F-8616-1F23C1CA3E5F}|Class2th (Class)\\Class2th (Class).vcxproj|solutionrelative:Class2th (Class)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0A1AE125-7056-4430-A270-0DEB972ABE5D}|Class3th (Constructor \u0026 Destructor)\\Class3th (Constructor \u0026 Destructor).vcxproj|C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Class3th (Constructor \u0026 Destructor)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0A1AE125-7056-4430-A270-0DEB972ABE5D}|Class3th (Constructor \u0026 Destructor)\\Class3th (Constructor \u0026 Destructor).vcxproj|solutionrelative:Class3th (Constructor \u0026 Destructor)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -25,23 +25,6 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Source.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Class2th (Class)\\Source.cpp",
-              "RelativeDocumentMoniker": "Class2th (Class)\\Source.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Class2th (Class)\\Source.cpp",
-              "RelativeToolTip": "Class2th (Class)\\Source.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-16T09:47:14.794Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Source.cpp",
@@ -49,9 +32,26 @@
               "RelativeDocumentMoniker": "Class1th (Stream)\\Source.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Class1th (Stream)\\Source.cpp",
               "RelativeToolTip": "Class1th (Stream)\\Source.cpp",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAGUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-16T09:02:04.734Z",
+              "WhenOpened": "2025-06-17T12:41:41.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Class3th (Constructor \u0026 Destructor)\\Source.cpp",
+              "RelativeDocumentMoniker": "Class3th (Constructor \u0026 Destructor)\\Source.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Class3th (Constructor \u0026 Destructor)\\Source.cpp",
+              "RelativeToolTip": "Class3th (Constructor \u0026 Destructor)\\Source.cpp",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAALUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-17T12:31:40.632Z",
               "EditorCaption": ""
             },
             {
@@ -62,7 +62,7 @@
               "RelativeDocumentMoniker": "Program\\Program.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Program\\Program.cpp",
               "RelativeToolTip": "Program\\Program.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-16T08:02:38.465Z",
               "EditorCaption": ""
