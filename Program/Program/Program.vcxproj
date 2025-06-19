@@ -127,7 +127,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Circle.cpp" />
+    <ClCompile Include="Firebat.cpp" />
+    <ClCompile Include="Ghost.cpp" />
+    <ClCompile Include="Marine.cpp" />
     <ClCompile Include="Program.cpp" />
+    <ClCompile Include="Shape.cpp" />
+    <ClCompile Include="Terran.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Circle.h" />
+    <ClInclude Include="Firebat.h" />
+    <ClInclude Include="Ghost.h" />
+    <ClInclude Include="Marine.h" />
+    <ClInclude Include="Shape.h" />
+    <ClInclude Include="Terran.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
