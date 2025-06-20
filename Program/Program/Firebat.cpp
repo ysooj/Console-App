@@ -2,14 +2,14 @@
 
 Firebat::Firebat()
 {
-	health = 13;
-	defense = 91;
+	health = 50;
+	defense = 1;
 }
 
 void Firebat::Stat()
 {
 	cout << "Firebat Health : " << health << endl;
-	cout << "Firebat Defense : " << defense << endl;
+	cout << "Firebat Defense : " << defense << "\n" << endl;
 }
 
 Firebat::~Firebat()

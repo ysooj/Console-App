@@ -2,14 +2,14 @@
 
 Marine::Marine()
 {
-	health = 100;
-	defense = 50;
+	health = 40;
+	defense = 0;
 }
 
 void Marine::Stat()
 {
 	cout << "Marine Health : " << health << endl;
-	cout << "Marine Defense : " << defense << endl;
+	cout << "Marine Defense : " << defense << "\n" << endl;
 }
 
 Marine::~Marine()

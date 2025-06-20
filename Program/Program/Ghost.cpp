@@ -2,14 +2,14 @@
 
 Ghost::Ghost()
 {
-	health = 75;
-	defense = 85;
+	health = 45;
+	defense = 0;
 }
 
 void Ghost::Stat()
 {
 	cout << "Ghost Health : " << health << endl;
-	cout << "Ghost Defense : " << defense << endl;
+	cout << "Ghost Defense : " << defense << "\n" << endl;
 }
 
 Ghost::~Ghost()
