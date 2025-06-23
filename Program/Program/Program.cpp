@@ -1,21 +1,61 @@
 ﻿#include <iostream>
+#include "Necklace.h"
+#include "Brooch.h"
 
 using namespace std;
 
 int main()
 {
-	int list[5] = {10, 20, 30, 40, 50};
+#pragma region 추상화
+	// 복잡한 시스템이나 객체의 내부의 세부사항은 숨기고,
+	// 필요한 부분만을 외부에서 사용할 수 있게 단순화시키는 기능입니다.
 
-	// &를 넣지 않으면 복사 비용이 발생하므로
-	// &를 넣어줌으로써 바로 참조하게 하여 복사 비용을 줄일 수 있다.
-	// 그리고 const를 씀으로써 element를 for문 안에서 수정할 수 없게 하면
-	// 가장 안전한 코드가 된다.
-	for (const int & element : list)
+	// 아래 두 개 중, 1번의 경우는 추상 클래스라서 안 되지만
+	// 2번의 경우는 포인터기 때문에 추상 클래스 여부와는 상관없이 가능한 것이다.
+	// Accessory accessory;		// 1번
+	//	Accessory * pointer;	// 2번
+	//	
+	//	pointer = new Brooch;
+	//	
+	//	pointer->Effect();
+	//	
+	//	delete pointer;
+	//	
+	//	pointer = new Necklace;
+	//	
+	//	pointer->Effect();
+	//	
+	//	delete pointer;
+
+	// 추상 클래스는 정의되어 있지 않은 함수가 있으므로, 객체를 생성할 수 없습니다.
+
+	Accessory * list[4];
+
+	for (int i = 0; i < 4; i++)
 	{
-		// const를 통해 값을 바꿀 수 없게 해주었다.
-		//	element = 99;
-		cout << "index : " << element << endl;
+		if (i % 2 == 0)
+		{
+			list[i] = new Necklace;
+
+			list[i]->Effect();
+		}
+		
+		else
+		{
+			list[i] = new Brooch;
+
+			list[i]->Effect();
+		}
 	}
+
+	for (int i = 0; i < 4; i++)
+	{
+		delete list[i];
+	}
+#pragma endregion
 
 	return 0;
 }
+
+// IT 쪽 : 정보처리기사
+// 게임 쪽 : 게임 프로그래밍 전문가, 유니티? (레벨 ; 어소시애이트 등)
