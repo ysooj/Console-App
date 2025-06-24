@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{08C0BD40-8462-4720-A71E-B0DC1018D5A4}|Program\\Program.vcxproj|C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Program\\Vector2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{08C0BD40-8462-4720-A71E-B0DC1018D5A4}|Program\\Program.vcxproj|solutionrelative:Program\\Vector2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08C0BD40-8462-4720-A71E-B0DC1018D5A4}|Program\\Program.vcxproj|C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Program\\Vector2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{08C0BD40-8462-4720-A71E-B0DC1018D5A4}|Program\\Program.vcxproj|solutionrelative:Program\\Vector2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{08C0BD40-8462-4720-A71E-B0DC1018D5A4}|Program\\Program.vcxproj|C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{08C0BD40-8462-4720-A71E-B0DC1018D5A4}|Program\\Program.vcxproj|solutionrelative:Program\\Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08C0BD40-8462-4720-A71E-B0DC1018D5A4}|Program\\Program.vcxproj|C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Program\\Accessory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{08C0BD40-8462-4720-A71E-B0DC1018D5A4}|Program\\Program.vcxproj|solutionrelative:Program\\Accessory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08C0BD40-8462-4720-A71E-B0DC1018D5A4}|Program\\Program.vcxproj|C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Program\\Necklace.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{08C0BD40-8462-4720-A71E-B0DC1018D5A4}|Program\\Program.vcxproj|solutionrelative:Program\\Necklace.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08C0BD40-8462-4720-A71E-B0DC1018D5A4}|Program\\Program.vcxproj|C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Program\\Brooch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{08C0BD40-8462-4720-A71E-B0DC1018D5A4}|Program\\Program.vcxproj|solutionrelative:Program\\Brooch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08C0BD40-8462-4720-A71E-B0DC1018D5A4}|Program\\Program.vcxproj|C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Program\\Brooch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{08C0BD40-8462-4720-A71E-B0DC1018D5A4}|Program\\Program.vcxproj|solutionrelative:Program\\Brooch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08C0BD40-8462-4720-A71E-B0DC1018D5A4}|Program\\Program.vcxproj|C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Program\\Necklace.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{08C0BD40-8462-4720-A71E-B0DC1018D5A4}|Program\\Program.vcxproj|solutionrelative:Program\\Necklace.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08C0BD40-8462-4720-A71E-B0DC1018D5A4}|Program\\Program.vcxproj|C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Program\\Accessory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{08C0BD40-8462-4720-A71E-B0DC1018D5A4}|Program\\Program.vcxproj|solutionrelative:Program\\Accessory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16236514-BE00-42B2-8864-DA92371292E1}|Class5th (Polymorphism)\\Class5th (Polymorphism).vcxproj|C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Class5th (Polymorphism)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -37,6 +21,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{80B61346-A3C7-4510-881D-0A75A5459E89}|Class4th (Inheritance)\\Class4th (Inheritance).vcxproj|C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Class4th (Inheritance)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{80B61346-A3C7-4510-881D-0A75A5459E89}|Class4th (Inheritance)\\Class4th (Inheritance).vcxproj|solutionrelative:Class4th (Inheritance)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D020D1E6-D105-41B6-A164-2796B295FD06}|Class6th (Abstract)\\Class6th (Abstract).vcxproj|C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Class6th (Abstract)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D020D1E6-D105-41B6-A164-2796B295FD06}|Class6th (Abstract)\\Class6th (Abstract).vcxproj|solutionrelative:Class6th (Abstract)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0A1AE125-7056-4430-A270-0DEB972ABE5D}|Class3th (Constructor \u0026 Destructor)\\Class3th (Constructor \u0026 Destructor).vcxproj|C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Class3th (Constructor \u0026 Destructor)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -58,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,110 +54,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Necklace.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Program\\Necklace.cpp",
-              "RelativeDocumentMoniker": "Program\\Necklace.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Program\\Necklace.cpp",
-              "RelativeToolTip": "Program\\Necklace.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Vector2.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Program\\Vector2.cpp",
+              "RelativeDocumentMoniker": "Program\\Vector2.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Program\\Vector2.cpp",
+              "RelativeToolTip": "Program\\Vector2.cpp",
+              "ViewState": "AgIAABoAAAAAAAAAAIAwwDAAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-23T11:19:33.686Z",
+              "WhenOpened": "2025-06-24T11:22:18.196Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Brooch.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Program\\Brooch.cpp",
-              "RelativeDocumentMoniker": "Program\\Brooch.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Program\\Brooch.cpp",
-              "RelativeToolTip": "Program\\Brooch.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-23T11:18:56.842Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Accessory.cpp",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Program\\Accessory.cpp",
-              "RelativeDocumentMoniker": "Program\\Accessory.cpp",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Program\\Accessory.cpp",
-              "RelativeToolTip": "Program\\Accessory.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-23T11:17:03.777Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Brooch.h",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Program\\Brooch.h",
-              "RelativeDocumentMoniker": "Program\\Brooch.h",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Program\\Brooch.h",
-              "RelativeToolTip": "Program\\Brooch.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Vector2.h",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Program\\Vector2.h",
+              "RelativeDocumentMoniker": "Program\\Vector2.h",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Program\\Vector2.h",
+              "RelativeToolTip": "Program\\Vector2.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-23T11:15:15.462Z",
+              "WhenOpened": "2025-06-24T11:21:22.994Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Necklace.h",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Program\\Necklace.h",
-              "RelativeDocumentMoniker": "Program\\Necklace.h",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Program\\Necklace.h",
-              "RelativeToolTip": "Program\\Necklace.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-23T11:14:55.71Z",
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Class6th (Abstract)\\Source.cpp",
+              "RelativeDocumentMoniker": "Class6th (Abstract)\\Source.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Class6th (Abstract)\\Source.cpp",
+              "RelativeToolTip": "Class6th (Abstract)\\Source.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-24T11:06:38.527Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Accessory.h",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Program\\Accessory.h",
-              "RelativeDocumentMoniker": "Program\\Accessory.h",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Program\\Accessory.h",
-              "RelativeToolTip": "Program\\Accessory.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-23T11:14:37.152Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Class5th (Polymorphism)\\Source.cpp",
               "RelativeDocumentMoniker": "Class5th (Polymorphism)\\Source.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Class5th (Polymorphism)\\Source.cpp",
               "RelativeToolTip": "Class5th (Polymorphism)\\Source.cpp",
-              "ViewState": "AgIAAJQAAAAAAAAAAAAAAKoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAKoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-20T12:23:48.364Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Class4th (Inheritance)\\Source.cpp",
               "RelativeDocumentMoniker": "Class4th (Inheritance)\\Source.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Class4th (Inheritance)\\Source.cpp",
               "RelativeToolTip": "Class4th (Inheritance)\\Source.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-18T12:18:46.495Z"
+              "WhenOpened": "2025-06-18T12:18:46.495Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Class2th (Class)\\Source.cpp",
               "RelativeDocumentMoniker": "Class2th (Class)\\Source.cpp",
@@ -181,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Class1th (Stream)\\Source.cpp",
               "RelativeDocumentMoniker": "Class1th (Stream)\\Source.cpp",
@@ -193,7 +143,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 6,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Class3th (Constructor \u0026 Destructor)\\Source.cpp",
               "RelativeDocumentMoniker": "Class3th (Constructor \u0026 Destructor)\\Source.cpp",
@@ -205,13 +155,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cpp",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Program\\Program.cpp",
               "RelativeDocumentMoniker": "Program\\Program.cpp",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\Console-App\\Program\\Program\\Program.cpp",
               "RelativeToolTip": "Program\\Program.cpp",
-              "ViewState": "AgIAACcAAAAAAAAAAAAiwDwAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-16T08:02:38.465Z",
               "EditorCaption": ""

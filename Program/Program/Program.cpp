@@ -1,61 +1,29 @@
 ﻿#include <iostream>
-#include "Necklace.h"
-#include "Brooch.h"
+#include "Vector2.h"
 
 using namespace std;
 
+// [OOP의 4대 특징]
+// 상속, 다형성, 추상화, 캡슐화
+
 int main()
 {
-#pragma region 추상화
-	// 복잡한 시스템이나 객체의 내부의 세부사항은 숨기고,
-	// 필요한 부분만을 외부에서 사용할 수 있게 단순화시키는 기능입니다.
+#pragma region 캡슐화
+	// 객체의 상태와 그 상태를 조작하는 기능을 하나로 합친 다음
+	// 객체 외부에서 이 상태에 직접 접근하지 못하도록 제한하는 기능입니다.
 
-	// 아래 두 개 중, 1번의 경우는 추상 클래스라서 안 되지만
-	// 2번의 경우는 포인터기 때문에 추상 클래스 여부와는 상관없이 가능한 것이다.
-	// Accessory accessory;		// 1번
-	//	Accessory * pointer;	// 2번
-	//	
-	//	pointer = new Brooch;
-	//	
-	//	pointer->Effect();
-	//	
-	//	delete pointer;
-	//	
-	//	pointer = new Necklace;
-	//	
-	//	pointer->Effect();
-	//	
-	//	delete pointer;
+	Vector2 vector1;
+	Vector2 vector2;
 
-	// 추상 클래스는 정의되어 있지 않은 함수가 있으므로, 객체를 생성할 수 없습니다.
+	vector1.Coordinate(1, 1);
+	vector2.Coordinate(2, 3);
 
-	Accessory * list[4];
+	Vector2 direction = vector1 + vector2;
 
-	for (int i = 0; i < 4; i++)
-	{
-		if (i % 2 == 0)
-		{
-			list[i] = new Necklace;
-
-			list[i]->Effect();
-		}
-		
-		else
-		{
-			list[i] = new Brooch;
-
-			list[i]->Effect();
-		}
-	}
-
-	for (int i = 0; i < 4; i++)
-	{
-		delete list[i];
-	}
+	cout << "(" << direction.X() << ", " << direction.Y() << ")" << endl;
+	cout << "direction X : " << direction.X() << endl;
+	cout << "direction Y : " << direction.Y() << endl;
 #pragma endregion
 
 	return 0;
 }
-
-// IT 쪽 : 정보처리기사
-// 게임 쪽 : 게임 프로그래밍 전문가, 유니티? (레벨 ; 어소시애이트 등)
