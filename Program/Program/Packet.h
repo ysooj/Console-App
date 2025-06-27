@@ -1,11 +1,16 @@
 #pragma once
+
+#include <iostream>
+
+using namespace std;
+
 class Packet
 {
 private:
-	int errorCode = -9999;
+	int error;
 public:
 	Packet();
+	const int & Error();
 	~Packet();
-	void Call();
 };
 
