@@ -1,77 +1,58 @@
 ﻿#include <iostream>
-#include <vector>
-#include <list>
+#include <stack>
+#include <queue>
 
 using namespace std;
 
 int main()
 {
-#pragma region 선형 컨테이너
-	// 데이터를 선형으로 저장하며, 특별한 제약이나 규칙이 없는 컨테이너입니다.
+#pragma region 컨테이너 어댑터
+	// 기존 컨테이너의 인터페이스를 제한하여 만든 기능이
+	// 제한되거나 변경된 컨테이너입니다.
 
-#pragma region vector container
-	
-	//	std::vector<int> vector;
+#pragma region stack container
+	// stack -> Last in First out. 나중에 들어온 게 먼저 나간다.
+
+	// 아래처럼 ,를 찍어보면 기본적으로 내부 구조는 deque로 지정돼있음을 확인할 수 있다.
+	// std::stack<int,> stack;
+	//	std::stack<int> stack;
 	//	
-	//	// 메모리 파편화 현상을 방지하기 위해 reserve로 처음부터 capacity를 정해줄 수 있다.
-	//	// 아래는 8로 capacity를 처음에 정해준 것이다.
-	//	vector.reserve(8);
+	//	stack.push(10);
+	//	stack.push(20);
+	//	stack.push(30);
+	//	stack.push(40);
+	//	stack.push(50);
 	//	
-	//	vector.push_back(10);
-	//	vector.push_back(20);
-	//	vector.push_back(30);
-	//	vector.push_back(40);
-	//	vector.push_back(50);
-	//	
-	//	vector.pop_back();
-	//	
-	//	for (int i = 0; i < vector.size(); i++)
+	//	// if (int i = 0; i < stack.size(); i++)
+	//	// if문으로 하지 못하는 이유는 stack.pop()으로 인해서 stack.size() 값이 for문을 돌 때마다 계속 바뀌기 때문.
+	//	while (stack.empty() == false)
 	//	{
-	//		//	cout << "vector[" << i << "] : " << vector[i] << endl;
-	//		cout << vector[i] << endl;
+	//		cout << "stack의 가장 마지막에 들어온 값 먼저 출력 : " << stack.top() << endl;
+	//		stack.pop();
 	//	}
-	//	
-	//	cout << "vector의 size : " << vector.size() << endl;
-	//	cout << "vector의 capacity : " << vector.capacity() << endl;
-	//	
-	//	// vector는 중간에 데이터를 넣거나 삭제하는 일이 빈번한 경우에는
-	//	// 사용하는 것을 추천하지 않는다. 사용하면 비효율적이라고 할 수 있다.
-	//	// vector 대신 나중에 쓸 큐? 데크?을 쓰는 게 좋다.
-	//	
-	//	vector.clear();
-	//	// 이를 통해 vector 안의 모든 원소들은 지워지지만,
-	//	// capacity는 나중에 쓸 수도 있으니까 그냥 놔둔다.
-	//	// (필요없을 것 같아서 해제했는데, 또 쓰게 되면 또 할당 다시 해야 하니까)
-	//	
-	//	cout << "vector의 size : " << vector.size() << endl;
-	//	cout << "vector의 capacity : " << vector.capacity() << endl;
 #pragma endregion
 
-#pragma region list container
-	std::list<int> list = {20};
+#pragma region queue container
+	// First in First out. 먼저 들어온 게 먼저 나간다.
+	// stack container와 마찬가지로 기본적으로 내부 구조는 deque로 지정돼있다.
 
-	list.push_back(30);
-	for (int element : list)
-	{
-		cout << "list contents: " << element << endl;
-	}
-	cout << "list : " << list.size() << endl;
+	//	std::queue<int> queue;
+	//	
+	//	queue.push(10);
+	//	queue.push(20);
+	//	queue.push(30);
+	//	queue.push(40);
+	//	queue.push(50);
+	//	
+	//	// queue가 비어있지 않다면 while문 실행.
+	//	while (queue.empty() == false)
+	//	{
+	//		cout << "queue의 가장 먼저 들어온 값 먼저 출력 : " << queue.front() << endl;
+	//		queue.pop();
+	//	}
 
-	list.push_front(10);
-	for (int element : list)
-	{
-		cout << "list contents: " << element << endl;
-	}
-	cout << "list : " << list.size() << endl;
-
-	list.pop_front();
-	for (int element : list)
-	{
-		cout << "list contents: " << element << endl;
-	}
-	cout << "list : " << list.size() << endl;
+	// 비어있을 때 한 번 더 pop을 하면 에러가 뜬다. (터미네이터가 실행된다.)
 #pragma endregion
-
 
 #pragma endregion
 
