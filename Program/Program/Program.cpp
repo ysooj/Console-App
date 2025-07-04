@@ -1,61 +1,116 @@
 ﻿#include <iostream>
-#include <stack>
-#include <queue>
+#include <unordered_set>
+#include <unordered_map>
 
 using namespace std;
 
-int main()
-{
-#pragma region 컨테이너 어댑터
-	// 기존 컨테이너의 인터페이스를 제한하여 만든 기능이
-	// 제한되거나 변경된 컨테이너입니다.
+int main() {
 
-#pragma region stack container
-	// stack -> Last in First out. 나중에 들어온 게 먼저 나간다.
-
-	// 아래처럼 ,를 찍어보면 기본적으로 내부 구조는 deque로 지정돼있음을 확인할 수 있다.
-	// std::stack<int,> stack;
-	//	std::stack<int> stack;
-	//	
-	//	stack.push(10);
-	//	stack.push(20);
-	//	stack.push(30);
-	//	stack.push(40);
-	//	stack.push(50);
-	//	
-	//	// if (int i = 0; i < stack.size(); i++)
-	//	// if문으로 하지 못하는 이유는 stack.pop()으로 인해서 stack.size() 값이 for문을 돌 때마다 계속 바뀌기 때문.
-	//	while (stack.empty() == false)
-	//	{
-	//		cout << "stack의 가장 마지막에 들어온 값 먼저 출력 : " << stack.top() << endl;
-	//		stack.pop();
-	//	}
+#pragma region unordered set
+    //  std::unordered_set<const char*> unordered_set;
+    //  
+    //  unordered_set.max_load_factor(2.0);
+    //  
+    //  unordered_set.insert("Messi");
+    //  unordered_set.insert("Hazard");
+    //  unordered_set.insert("Ronaldo");
+    //  unordered_set.insert("Alisson");
+    //  unordered_set.insert("Van Dijk");
+    //  unordered_set.insert("Harry Kane");
+    //  unordered_set.insert("Toni Kroos");
+    //  unordered_set.insert("Kyle Walker");
+    //  unordered_set.insert("Son Heung Min");
+    //  
+    //  if (unordered_set.find("Jisung Park") != unordered_set.end())
+    //  {
+    //      cout << "the data exists..." << endl;
+    //  }
+    //  
+    //  else
+    //  {
+    //      cout << "the data does not exist..." << endl;
+    //  }
+    //  
+    //  unordered_set.erase("Messi");
+    //  
+    //  cout << "Load Factor : " << unordered_set.load_factor() << endl;
+    //  cout << "Bucket Count : " << unordered_set.bucket_count() << endl;
+    //  
+    //  // [낮은 부하율]
+    //  // 테이블의 공간이 많이 남아서 충돌 가능성은 낮아졌지만,
+    //  // 많은 메모리들을 사용하고 있지 않은 상태
+    //  // 부하율이 낮다고 좋은 것만은 아니다.
+    //  
+    //  // [높은 부하율]
+    //      // 충돌 가능성이 높기 때문에
+    //  // 검색과 삽입 속도가 느려질 수 있습니다.
+    //  
+    //  // 가장 이상적인 부하율 : 0.75~0.8
+    //  
+    //  for (const char* element : unordered_set)
+    //  {
+    //      cout << element << endl;
+    //  }
+    //  
+    //  // '연관 컨테이너'로 깃허브에 commit하기
 #pragma endregion
 
-#pragma region queue container
-	// First in First out. 먼저 들어온 게 먼저 나간다.
-	// stack container와 마찬가지로 기본적으로 내부 구조는 deque로 지정돼있다.
+#pragma region unordered map
+    //  // set은 key만, map은 key와 value를 다 저장할 수 있다.
+    //  
+    //  std::unordered_map<const char*, int> unordered_map;
+    //  
+    //  // {} => '블레이스'라고 부른다.
+    //  unordered_map.insert({ "Zhonya's Hourglass", 2900 });
+    //  unordered_map.insert({ "Sterak's Gage", 3100 });
+    //  unordered_map.insert({ "Trinity Force", 3333 });
+    //  unordered_map.insert({ "Gargoyle Stoneplate", 3300 });
+    //  unordered_map.insert({ "BloodThirster", 3400 });
+    //  
+    //  unordered_map.insert({ "BloodThirster", 3400 });
+    //  
+    //  cout << "Load Factor : " << unordered_map.load_factor() << endl;
+    //  cout << "unordered_map size : " << unordered_map.size() << endl;
+    //  
+    //  unordered_map.erase("Trinity Force");
+    //  
+    //  for (const auto & element : unordered_map)
+    //  {
+    //      // first가 key
+    //      cout << "Key : " << element.first << endl;
+    //      // second가 value
+    //      cout << "Value : " << element.second << endl;
+    //  }
+    //  
+    //  if (unordered_map.find("Gargoyle Stoneplate") != unordered_map.end())
+    //  {
+    //      cout << "the data exists..." << endl;
+    //  }
+    //  
+    //  else
+    //  {
+    //      cout << "the data does not exist..." << endl;
+    //  }
+    //  
+    //  unordered_map.clear();
+    //  
+    //  cout << "Load Factor : " << unordered_map.load_factor() << endl;
 
-	//	std::queue<int> queue;
-	//	
-	//	queue.push(10);
-	//	queue.push(20);
-	//	queue.push(30);
-	//	queue.push(40);
-	//	queue.push(50);
-	//	
-	//	// queue가 비어있지 않다면 while문 실행.
-	//	while (queue.empty() == false)
-	//	{
-	//		cout << "queue의 가장 먼저 들어온 값 먼저 출력 : " << queue.front() << endl;
-	//		queue.pop();
-	//	}
-
-	// 비어있을 때 한 번 더 pop을 하면 에러가 뜬다. (터미네이터가 실행된다.)
 #pragma endregion
 
+#pragma region MyRegion
+    // 전위 순회 : root -> left child -> right child
+    // 중위 순회 : left child -> root -> right child
+    // 후위 순회 : left child -> right child -> root
+
+    //              10
+    //        6            20
+    //   4         8
+
+    // 전위 순회 => 10, 6, 4, 8, 20
+    // 중위 순회 => 4, 6, 8, 10, 20
+    // 후위 순회 => 4, 8, 6, 10, 20
 #pragma endregion
 
-
-	return 0;
+    return 0;
 }
